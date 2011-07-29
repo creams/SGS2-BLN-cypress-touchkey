@@ -1,0 +1,13 @@
+How to build BLN supported kernel.
+
+download GT-I9100 kernel source code from https://opensource.samsung.com/
+and replace this file
+
+    drivers/input/keyboard/cypress/cypress-touchkey.c
+
+then compile to kernel with your initramfs
+
+    make -j4
+
+and created zImage to flash your SGS2
+enjoy!
