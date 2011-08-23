@@ -11,3 +11,5 @@ then compile to kernel with your initramfs
 
 and created zImage to flash your SGS2
 enjoy!
+
+2011-08-24 : based on Update2 sourcecode.
